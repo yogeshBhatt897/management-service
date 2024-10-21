@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const routes = require('./routes');
 
-// Load environment variables from .env file
+// Load environment variables from .env file 
 dotenv.config();
 
 const app = express();
